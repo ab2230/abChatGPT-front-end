@@ -49,7 +49,13 @@ function App() {
   }
 
   function clearChat(){
-    setChatLog([])
+    setChatLog([{
+      user:'gpt',
+      message:'How Can I Help?'
+    },{
+      user:'me',
+      message:'I am trying chatGPT'
+    }])
   }
   return (
     <div className="App">
