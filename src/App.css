@@ -138,3 +138,98 @@ background-color: rgba(255,255, 255, 0.1);
   bottom: 0; left: 0;right: 0; 
   color: lightcoral;
 }
+
+@media screen and (max-width:600px) {
+  .sideMenu {
+    width:110px;
+    padding: 5px;
+    background-color: #202123;
+  }
+  .chatBox {
+    flex:1;
+    background-color:#343541;
+    position: relative;
+  }
+  .side-menu-button {
+    padding:3px;
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: left;
+    transition: ease 0.25s all;
+    font-size:x-small;
+  }
+  .side-menu-button span{
+    font-size: x-small;
+  }
+  .models span{
+    color: lightblue;
+    font-weight: bolder;
+    position: relative;
+    font-size: x-small;
+  }
+  .models select{
+    padding:3px;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: left;
+    transition: ease 0.25s all;
+    background-color: #444654;
+    color: white;
+    outline: none;
+    font-size: x-small;
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .chat-input-holder {
+    padding: 0px;
+    position: absolute;
+    bottom: 45px; left: 0;right: 0;
+  }
+  
+  .chat-input-textarea {
+    background-color: #40414f;
+    width:100%;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-color: none;
+    outline:none;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+  }
+  .chat-message-center{
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .avatar{
+      background: white;
+      border-radius: 50%;
+      width: 30px;
+      height:30px;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+  }
+  .avatar img{
+      border-radius: 50%;
+      width: 30px;
+      height:30px;
+      align-items: center;
+      justify-content: center;
+  }
+  .message{
+    padding-left: 5px;
+      padding-right: 3px;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      font-size: x-small;
+  }
+}
