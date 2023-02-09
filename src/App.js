@@ -91,7 +91,7 @@ function App() {
             placeholder='Type Your Message Here'></input>
             </form>
         </div>
-        <span className='copyright'>Developed by Abrham Tesfaye @october 1 2023 using OpenAIApi</span>
+        <span className='copyright'>Developed by Abrham Tesfaye @February 1 2023 using OpenAIApi</span>
       </section>
     </div>
   );
